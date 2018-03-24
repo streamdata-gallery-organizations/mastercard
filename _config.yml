@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: mastercard.api.streamdata.gallery
+title: Streamdata Gallery MasterCard
+url: mastercard.streamdata.gallery
 tag: MasterCard
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: mastercard
 github_branch: master
 collections:
