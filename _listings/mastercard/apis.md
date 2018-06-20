@@ -1,18 +1,14 @@
 ---
 name: MasterCard
 x-slug: mastercard
-description: As a critical link among financial institutions and millions of businesses,
-  cardholders and merchants worldwide, MasterCard provides services in more than 210
-  countries and territories. MasterCard advances commerce worldwide by developing
-  more secure, convenient and rewarding payment solutions, processing billions of
-  payments seamlessly across the globe, and building economic connections that accelerate
-  business.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+description: Mastercard is a leading global payments & technology company that connects
+  consumers, businesses, merchants, issuers & governments around the world.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "48280"
 tags: MasterCard
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mastercard/master/_listings/mastercard/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,7 +17,7 @@ apis:
   description: |-
     Gets general metadata about the current state of the blockchain network.
     Useful for building dashboards.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//status
   tags: Blockchain,Status
@@ -36,7 +32,7 @@ apis:
     By default, this call gets information about your local node and its
     connections. The `scope` parameter enabled this query to be extended
     to get further information about nodes that are visible to your node.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//node
   tags: Blockchain,Node
@@ -50,7 +46,7 @@ apis:
   description: |-
     Information about a specific node may be retrieved by its address.
     This is useful when navigating the network.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//node/{address}
   tags: Blockchain,Node, Address
@@ -66,7 +62,7 @@ apis:
     you are permissioned to that application, this will also return the
     message definitions you will need to comply with to issue valid transaction
     entries for that application.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//app/{id}
   tags: Blockchain,App
@@ -85,7 +81,7 @@ apis:
     [here](https://developers.google.com/protocol-buffers/docs/proto3)
     This specification may be sent either as the canonical JSON transform
     or the native `.proto` file encoded as hex, base58 or base64.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//app/{id}
   tags: Blockchain,App
@@ -99,7 +95,7 @@ apis:
     call may return information about a blockchain node or a signing entity.
     Also, the level of detail returned will vary depending on your permissions
     for the query target.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//address/{address}
   tags: Blockchain,Address, Address
@@ -120,7 +116,7 @@ apis:
     the block binary, and references to the block entries via the merkle roots.
 
     Note that the maximum range request allowed is 600 entries.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//block
   tags: Blockchain,Block
@@ -132,7 +128,7 @@ apis:
   description: |-
     A specific block may be retrieved by its hash key. This is useful when
     navigating the chain.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//block/{key}
   tags: Blockchain,Block, Key
@@ -145,7 +141,7 @@ apis:
     Add a transaction entry for your application to the blockchain. Note that
     this entry must be a valid message according to the application configuration
     that you set up.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//entry
   tags: Blockchain,Entry
@@ -158,7 +154,7 @@ apis:
     Returns full detail of the value of the blockchain entry
     referenced by the specified key, if it has been previously recorded
     by your node's key-value store (database).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//entry/{key}
   tags: Blockchain,Entry, Key
@@ -172,7 +168,7 @@ apis:
     library handy for a specific encoding. Provides transforms between
     Base-58, Base-64 and Hexadecimal encodings. You specify the input format
     and output format you wish, and a list of values to transcode.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1//support/encoding
   tags: Blockchain,Support, Encoding
@@ -181,13 +177,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/mastercard/master/_listings/mastercard/supportencoding-post-openapi.md
 - name: Mastercard
   x-api-slug: mastercard
-  description: As a critical link among financial institutions and millions of businesses,
-    cardholders and merchants worldwide, MasterCard provides services in more than
-    210 countries and territories. MasterCard advances commerce worldwide by developing
-    more secure, convenient and rewarding payment solutions, processing billions of
-    payments seamlessly across the globe, and building economic connections that accelerate
-    business.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/366_logo.png
+  description: Mastercard is a leading global payments & technology company that connects
+    consumers, businesses, merchants, issuers & governments around the world.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg
   humanURL: https://developer.mastercard.com/
   baseURL: https://eas5stl0.mastercard.int:13046//z0/core/v1
   tags: MasterCard
@@ -200,11 +192,15 @@ x-common:
 - type: x-blog
   url: https://developer.mastercard.com/portal/display/blogs/Developer+Blogs
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/mastercard
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/mastercard
 - type: x-github
   url: https://github.com/MasterCard
 - type: x-website
   url: https://developer.mastercard.com/
+- type: x-twitter
+  url: https://twitter.com/AskMastercard
 - type: x-twitter
   url: https://twitter.com/MasterCardDev
 include: []
