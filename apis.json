@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - MasterCard",
+	"description": "This is a repository of mastercard APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/mastercard.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://mastercard.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "MasterCard",
+			"x-api-slug": "mastercard",
+			"description": "Mastercard is a leading global payments & technology company that connects consumers, businesses, merchants, issuers & governments around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg",
+			"humanURL": "https://developer.mastercard.com/",
+			"baseURL": "https://eas5stl0.mastercard.int:13046//z0/core/v1",
+			"tags": "MasterCard",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/mastercard/master/_listings/mastercard/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "MasterCard",
+	"include": [
+		{
+			"name": "MasterCard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/mastercard/master/_listings/mastercard/apis.yaml"
+		}
+	]
+}
